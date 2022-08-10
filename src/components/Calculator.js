@@ -2,7 +2,7 @@ import './Calculator.css';
 
 const Calculator = () => (
   <div className="calc-container">
-    <div className="output bg-grey" />
+    <div className="output bg-grey">0.0</div>
     <button type="button" className="bg-onix">AC</button>
     <button type="button" className="bg-onix">+/-</button>
     <button type="button" className="bg-onix">%</button>

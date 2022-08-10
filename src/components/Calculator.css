@@ -1,0 +1,36 @@
+button {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+.calc-container {
+  display: grid;
+  margin: 5vh 5vw;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 5rem);
+}
+
+.span-two {
+  grid-column: span 2;
+}
+
+.output {
+  grid-column: 1 / -1;
+  color: #e0e0e0;
+  font-size: 40px;
+  text-align: end;
+  padding: 1rem 1rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.bg-grey {
+  background-color: #858694;
+}
+
+.bg-onix {
+  background-color: #e0e0e0;
+}
+
+.bg-orange {
+  background-color: #f5913e;
+}

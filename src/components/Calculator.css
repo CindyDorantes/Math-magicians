@@ -3,6 +3,10 @@ button {
   font-size: 18px;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 .calc-container {
   display: grid;
   margin: 5vh 5vw;

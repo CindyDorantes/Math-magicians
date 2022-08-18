@@ -4,7 +4,7 @@ import calculate from '../logic/calculate';
 import './Calculator.css';
 
 const Calculator = () => {
-  const [digits, setDigits] = useState();
+  const [digits, setDigits] = useState({});
 
   const handleClick = (e) => {
     const newDigits = (calculate(digits, e.target.textContent));
@@ -14,7 +14,7 @@ const Calculator = () => {
     }));
   };
 
-  const [next, total] = digits;
+  const { next, total } = digits;
   return (
     <div className="calc-container">
       <div className="output bg-grey">{next || total || 0}</div>

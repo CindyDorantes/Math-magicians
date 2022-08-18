@@ -1,60 +1,60 @@
 body {
-    margin: 0;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: aquamarine;
-    padding: 2vh 2vw;
-    margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: aquamarine;
+  padding: 2vh 2vw;
+  margin: 0;
 }
 
 .navTitle {
-    font-weight: bolder;
-    font-size: 40px;
-    padding: 0;
-    margin: 0;
+  font-weight: bolder;
+  font-size: 40px;
+  padding: 0;
+  margin: 0;
 }
 
 .navBar {
-    padding: 1vw;
+  padding: 1vw;
 }
 
 .navLink {
-    text-decoration: none;
-    color: #000;
-    padding: 2vw;
+  text-decoration: none;
+  color: #000;
+  padding: 2vw;
 }
 
 .navLink:hover {
-    background-color:lightslategray;
-    font-weight: bold;
+  background-color: lightslategray;
+  font-weight: bold;
 }
 
 .home {
-    padding: 2vh 2vw;
+  padding: 2vh 2vw;
 }
 
 .calculator {
-    padding: 2vh 2vw;
-    font-size: 25px;
-    font-weight: bold;
+  padding: 2vh 2vw;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 .lets {
-    padding: 0 5vw;
+  padding: 0 5vw;
 }
 
 .quote {
-    padding: 4vh 2vw;
-    margin: 6vh 4vw;
-    font-size: 25px;
-    font-weight: bold;
-    text-align: center;
-    border-radius: 10px;
-    border: 3px solid aqua;
-    box-shadow: 10px 10px grey;
+  padding: 4vh 2vw;
+  margin: 6vh 4vw;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 10px;
+  border: 3px solid aqua;
+  box-shadow: 10px 10px grey;
 }
